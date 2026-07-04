@@ -1,0 +1,635 @@
+{
+  "incidents": [
+    {
+      "id": "inc_1",
+      "lat": 13.0427,
+      "lng": 80.2407,
+      "district": "Chennai",
+      "disasterType": "Flood",
+      "description": "Severe water logging near Velachery housing sector. 45 citizens trapped in ground floor apartments. Power supply disabled.",
+      "reportedSeverity": "High",
+      "peopleAffected": 45,
+      "timestamp": "2026-07-02T18:02:38.204Z",
+      "source": "Citizen",
+      "status": "Resolved",
+      "severityScore": 82,
+      "severityLabel": "High",
+      "assignedResponder": "Chennai Disaster Response Force"
+    },
+    {
+      "id": "inc_2",
+      "lat": 13.1127,
+      "lng": 80.2907,
+      "district": "Chennai",
+      "disasterType": "Cyclone",
+      "description": "High winds have uprooted heavy trees blocking major arterial roads in North Chennai, trapping a school bus with 15 children. Minor injuries reported.",
+      "reportedSeverity": "Critical",
+      "peopleAffected": 20,
+      "timestamp": "2026-07-02T18:32:38.205Z",
+      "source": "Official",
+      "status": "Resolved",
+      "severityScore": 92,
+      "severityLabel": "Critical",
+      "assignedResponder": "Chennai Disaster Response Force"
+    },
+    {
+      "id": "inc_3",
+      "lat": 11.0268,
+      "lng": 76.9658,
+      "district": "Coimbatore",
+      "disasterType": "Fire",
+      "description": "Major electrical short circuit fire in Gandhipuram textile mill warehouse. Dense toxic smoke spreading to neighboring residential blocks.",
+      "reportedSeverity": "High",
+      "peopleAffected": 120,
+      "timestamp": "2026-07-02T17:52:38.205Z",
+      "source": "News",
+      "status": "Active",
+      "severityScore": 88,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_4",
+      "lat": 11.4202,
+      "lng": 76.715,
+      "district": "Nilgiris",
+      "disasterType": "Landslide",
+      "description": "Landslide triggered by heavy torrential rain on Ooty-Mettupalayam road near Coonoor. 3 vehicles swept into a ravine, passenger numbers unknown.",
+      "reportedSeverity": "Critical",
+      "peopleAffected": 12,
+      "timestamp": "2026-07-02T18:22:38.205Z",
+      "source": "Sensor",
+      "status": "Active",
+      "severityScore": 95,
+      "severityLabel": "Critical"
+    },
+    {
+      "id": "inc_5",
+      "lat": 10.7955,
+      "lng": 78.7147,
+      "district": "Trichy",
+      "disasterType": "Flood",
+      "description": "Cauvery river outflow level crossed danger mark. Low-lying farmlands and mud-houses in Srirangam completely inundated. 60 residents need immediate rescue.",
+      "reportedSeverity": "High",
+      "peopleAffected": 60,
+      "timestamp": "2026-07-02T17:32:38.205Z",
+      "source": "Official",
+      "status": "Active",
+      "severityScore": 85,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_6",
+      "lat": 9.9352,
+      "lng": 78.1298,
+      "district": "Madurai",
+      "disasterType": "Earthquake",
+      "description": "Mild tremors reported, resulting in structural wall collapse of an old retail shop near Madurai Meenakshi Temple. 3 pedestrians trapped under debris.",
+      "reportedSeverity": "High",
+      "peopleAffected": 5,
+      "timestamp": "2026-07-02T17:02:38.205Z",
+      "source": "Citizen",
+      "status": "Active",
+      "severityScore": 78,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_7",
+      "lat": 11.758,
+      "lng": 79.7814,
+      "district": "Cuddalore",
+      "disasterType": "Cyclone",
+      "description": "Severe storm surge in coastal village near Cuddalore port. Fishing boats wrecked, seawater entering houses. 150 villagers need relocation to safe shelter.",
+      "reportedSeverity": "High",
+      "peopleAffected": 150,
+      "timestamp": "2026-07-02T17:22:38.205Z",
+      "source": "Official",
+      "status": "Active",
+      "severityScore": 89,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_8",
+      "lat": 10.9701,
+      "lng": 78.0866,
+      "district": "Karur",
+      "disasterType": "Flood",
+      "description": "Amaravathy river canal breached, flooding nearby agricultural laborer settlements. 30 families trapped on roofs.",
+      "reportedSeverity": "High",
+      "peopleAffected": 30,
+      "timestamp": "2026-07-02T18:12:38.205Z",
+      "source": "Citizen",
+      "status": "Active",
+      "severityScore": 80,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_9",
+      "lat": 11.6743,
+      "lng": 78.156,
+      "district": "Salem",
+      "disasterType": "Fire",
+      "description": "Forest fire detected in Shevaroys/Yercaud hills foothills. Spreading rapidly towards tourist resorts due to dry summer wind gusts.",
+      "reportedSeverity": "Medium",
+      "peopleAffected": 80,
+      "timestamp": "2026-07-02T16:15:58.205Z",
+      "source": "Sensor",
+      "status": "Active",
+      "severityScore": 65,
+      "severityLabel": "Medium"
+    },
+    {
+      "id": "inc_10",
+      "lat": 13.0627,
+      "lng": 80.2007,
+      "district": "Chennai",
+      "disasterType": "Flood",
+      "description": "Subway water logging at Nungambakkam. Two private cars submerged completely, drivers escaped but traffic is severely paralyzed with multiple collisions nearby.",
+      "reportedSeverity": "Medium",
+      "peopleAffected": 8,
+      "timestamp": "2026-07-02T17:42:38.205Z",
+      "source": "News",
+      "status": "Resolved",
+      "severityScore": 55,
+      "severityLabel": "Medium",
+      "assignedResponder": "Chennai Disaster Response Force"
+    },
+    {
+      "id": "inc_11",
+      "lat": 11.0068,
+      "lng": 76.9258,
+      "district": "Coimbatore",
+      "disasterType": "Fire",
+      "description": "Chemical spill and small blast at an industrial processing unit in Singanallur. 4 operators sustained chemical burns. Toxic fumes leaking.",
+      "reportedSeverity": "Critical",
+      "peopleAffected": 15,
+      "timestamp": "2026-07-02T18:42:38.205Z",
+      "source": "Official",
+      "status": "Active",
+      "severityScore": 94,
+      "severityLabel": "Critical"
+    },
+    {
+      "id": "inc_12",
+      "lat": 11.4002,
+      "lng": 76.685,
+      "district": "Nilgiris",
+      "disasterType": "Landslide",
+      "description": "Mudslide hit a remote tribal settlement near Gudalur. Two houses completely crushed. Debris blocking all entry roads. 15 people missing.",
+      "reportedSeverity": "Critical",
+      "peopleAffected": 35,
+      "timestamp": "2026-07-02T18:37:38.205Z",
+      "source": "Citizen",
+      "status": "Active",
+      "severityScore": 97,
+      "severityLabel": "Critical"
+    },
+    {
+      "id": "inc_13",
+      "lat": 10.7705,
+      "lng": 78.6847,
+      "district": "Trichy",
+      "disasterType": "Flood",
+      "description": "Overflow in regional drainage canals. Water logging in low-income housing colony in Thiruverumbur. 80 elderly residents trapped inside houses.",
+      "reportedSeverity": "High",
+      "peopleAffected": 80,
+      "timestamp": "2026-07-02T16:32:38.205Z",
+      "source": "Citizen",
+      "status": "Active",
+      "severityScore": 84,
+      "severityLabel": "High"
+    },
+    {
+      "id": "inc_14",
+      "lat": 9.9152,
+      "lng": 78.1098,
+      "district": "Madurai",
+      "disasterType": "Fire",
+      "description": "Commercial market fire near Mattuthavani bus stand. High density of wooden stalls and combustible goods. Multiple shops ablaze.",
+      "reportedSeverity": "High",
+      "peopleAffected": 200,
+      "timestamp": "2026-07-02T18:02:38.205Z",
+      "source": "News",
+      "status": "Active",
+      "severityScore": 91,
+      "severityLabel": "Critical"
+    },
+    {
+      "id": "inc_15",
+      "lat": 11.738,
+      "lng": 79.7514,
+      "district": "Cuddalore",
+      "disasterType": "Flood",
+      "description": "Inundation in Chidambaram block following excessive discharge from regional reservoirs. 100 residents cut off without drinking water and sanitation.",
+      "reportedSeverity": "High",
+      "peopleAffected": 100,
+      "timestamp": "2026-07-02T16:49:18.205Z",
+      "source": "Official",
+      "status": "Active",
+      "severityScore": 81,
+      "severityLabel": "High"
+    }
+  ],
+  "depots": [
+    {
+      "id": "depot_chennai",
+      "name": "Chennai Central Disaster Depot",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "district": "Chennai"
+    },
+    {
+      "id": "depot_coimbatore",
+      "name": "Coimbatore Western Command Depot",
+      "lat": 11.0168,
+      "lng": 76.9558,
+      "district": "Coimbatore"
+    },
+    {
+      "id": "depot_trichy",
+      "name": "Trichy Delta Regional Depot",
+      "lat": 10.7905,
+      "lng": 78.7047,
+      "district": "Trichy"
+    },
+    {
+      "id": "depot_madurai",
+      "name": "Madurai Southern Command Depot",
+      "lat": 9.9252,
+      "lng": 78.1198,
+      "district": "Madurai"
+    },
+    {
+      "id": "depot_ooty",
+      "name": "Nilgiris Mountain Rescue Station",
+      "lat": 11.4102,
+      "lng": 76.695,
+      "district": "Nilgiris"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_ch_amb",
+      "name": "Chennai Emergency Ambulance Fleet A",
+      "type": "Ambulance",
+      "total": 15,
+      "allocated": 0,
+      "available": 15,
+      "depotId": "depot_chennai"
+    },
+    {
+      "id": "res_ch_boat",
+      "name": "Chennai Coast Guard Rescue Boats",
+      "type": "Rescue Boat",
+      "total": 10,
+      "allocated": 0,
+      "available": 10,
+      "depotId": "depot_chennai"
+    },
+    {
+      "id": "res_ch_food",
+      "name": "Chennai Relief Food Supplies",
+      "type": "Food Supply",
+      "total": 500,
+      "allocated": 34,
+      "available": 466,
+      "depotId": "depot_chennai"
+    },
+    {
+      "id": "res_ch_med",
+      "name": "Chennai Rapid Trauma Kits",
+      "type": "Medical Kit",
+      "total": 150,
+      "allocated": 95,
+      "available": 55,
+      "depotId": "depot_chennai"
+    },
+    {
+      "id": "res_ch_shelter",
+      "name": "Chennai Multi-purpose Relief Shelter",
+      "type": "Shelter Space",
+      "total": 300,
+      "allocated": 142,
+      "available": 158,
+      "depotId": "depot_chennai"
+    },
+    {
+      "id": "res_cbe_amb",
+      "name": "Coimbatore Trauma Response Ambulances",
+      "type": "Ambulance",
+      "total": 10,
+      "allocated": 0,
+      "available": 10,
+      "depotId": "depot_coimbatore"
+    },
+    {
+      "id": "res_cbe_food",
+      "name": "Coimbatore NGO Prepared Food Supplies",
+      "type": "Food Supply",
+      "total": 300,
+      "allocated": 300,
+      "available": 0,
+      "depotId": "depot_coimbatore"
+    },
+    {
+      "id": "res_cbe_med",
+      "name": "Coimbatore Hospital Association Medical Kits",
+      "type": "Medical Kit",
+      "total": 100,
+      "allocated": 0,
+      "available": 100,
+      "depotId": "depot_coimbatore"
+    },
+    {
+      "id": "res_cbe_shelter",
+      "name": "Coimbatore Stadium Rescue Center",
+      "type": "Shelter Space",
+      "total": 200,
+      "allocated": 100,
+      "available": 100,
+      "depotId": "depot_coimbatore"
+    },
+    {
+      "id": "res_try_amb",
+      "name": "Trichy Municipal Ambulances",
+      "type": "Ambulance",
+      "total": 8,
+      "allocated": 0,
+      "available": 8,
+      "depotId": "depot_trichy"
+    },
+    {
+      "id": "res_try_boat",
+      "name": "Cauvery River Inflatable Boats",
+      "type": "Rescue Boat",
+      "total": 6,
+      "allocated": 0,
+      "available": 6,
+      "depotId": "depot_trichy"
+    },
+    {
+      "id": "res_try_food",
+      "name": "Trichy Agricultural Cooperative Grain Kits",
+      "type": "Food Supply",
+      "total": 400,
+      "allocated": 0,
+      "available": 400,
+      "depotId": "depot_trichy"
+    },
+    {
+      "id": "res_try_med",
+      "name": "Trichy Red Cross Medical Chests",
+      "type": "Medical Kit",
+      "total": 80,
+      "allocated": 0,
+      "available": 80,
+      "depotId": "depot_trichy"
+    },
+    {
+      "id": "res_try_shelter",
+      "name": "Trichy Exhibition Hall Shelter",
+      "type": "Shelter Space",
+      "total": 150,
+      "allocated": 0,
+      "available": 150,
+      "depotId": "depot_trichy"
+    },
+    {
+      "id": "res_mdu_amb",
+      "name": "Madurai Fire Service Ambulances",
+      "type": "Ambulance",
+      "total": 8,
+      "allocated": 0,
+      "available": 8,
+      "depotId": "depot_madurai"
+    },
+    {
+      "id": "res_mdu_food",
+      "name": "Madurai Temple Kitchen Rations",
+      "type": "Food Supply",
+      "total": 350,
+      "allocated": 200,
+      "available": 150,
+      "depotId": "depot_madurai"
+    },
+    {
+      "id": "res_mdu_med",
+      "name": "Madurai Government Hospital Disaster Kits",
+      "type": "Medical Kit",
+      "total": 75,
+      "allocated": 0,
+      "available": 75,
+      "depotId": "depot_madurai"
+    },
+    {
+      "id": "res_mdu_shelter",
+      "name": "Madurai College Campus Hostels",
+      "type": "Shelter Space",
+      "total": 250,
+      "allocated": 25,
+      "available": 225,
+      "depotId": "depot_madurai"
+    },
+    {
+      "id": "res_oty_amb",
+      "name": "Ooty High-Altitude Ambulances",
+      "type": "Ambulance",
+      "total": 4,
+      "allocated": 0,
+      "available": 4,
+      "depotId": "depot_ooty"
+    },
+    {
+      "id": "res_oty_boat",
+      "name": "Ooty Lake Rescue Rafts",
+      "type": "Rescue Boat",
+      "total": 3,
+      "allocated": 0,
+      "available": 3,
+      "depotId": "depot_ooty"
+    },
+    {
+      "id": "res_oty_food",
+      "name": "Ooty Emergency Dry Rations",
+      "type": "Food Supply",
+      "total": 200,
+      "allocated": 153,
+      "available": 47,
+      "depotId": "depot_ooty"
+    },
+    {
+      "id": "res_oty_med",
+      "name": "Ooty Alpine Trauma Medical Packs",
+      "type": "Medical Kit",
+      "total": 50,
+      "allocated": 0,
+      "available": 50,
+      "depotId": "depot_ooty"
+    },
+    {
+      "id": "res_oty_shelter",
+      "name": "Ooty Government Tourist Lodge Shelters",
+      "type": "Shelter Space",
+      "total": 100,
+      "allocated": 53,
+      "available": 47,
+      "depotId": "depot_ooty"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "alloc_1",
+      "incidentId": "inc_14",
+      "resourceId": "res_ch_med",
+      "resourceType": "Medical Kit",
+      "quantity": 95,
+      "etaMinutes": 518,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_2",
+      "incidentId": "inc_14",
+      "resourceId": "res_mdu_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 25,
+      "etaMinutes": 12,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_3",
+      "incidentId": "inc_14",
+      "resourceId": "res_cbe_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 75,
+      "etaMinutes": 221,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_4",
+      "incidentId": "inc_7",
+      "resourceId": "res_ch_food",
+      "resourceType": "Food Supply",
+      "quantity": 34,
+      "etaMinutes": 198,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_5",
+      "incidentId": "inc_7",
+      "resourceId": "res_mdu_food",
+      "resourceType": "Food Supply",
+      "quantity": 200,
+      "etaMinutes": 337,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_6",
+      "incidentId": "inc_7",
+      "resourceId": "res_cbe_food",
+      "resourceType": "Food Supply",
+      "quantity": 216,
+      "etaMinutes": 393,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_7",
+      "incidentId": "inc_7",
+      "resourceId": "res_ch_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 142,
+      "etaMinutes": 198,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_8",
+      "incidentId": "inc_7",
+      "resourceId": "res_cbe_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 8,
+      "etaMinutes": 393,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_9",
+      "incidentId": "inc_3",
+      "resourceId": "res_cbe_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 17,
+      "etaMinutes": 12,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_10",
+      "incidentId": "inc_3",
+      "resourceId": "res_oty_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 43,
+      "etaMinutes": 72,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_11",
+      "incidentId": "inc_15",
+      "resourceId": "res_cbe_food",
+      "resourceType": "Food Supply",
+      "quantity": 84,
+      "etaMinutes": 388,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_12",
+      "incidentId": "inc_15",
+      "resourceId": "res_oty_food",
+      "resourceType": "Food Supply",
+      "quantity": 116,
+      "etaMinutes": 412,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_13",
+      "incidentId": "inc_15",
+      "resourceId": "res_oty_shelter",
+      "resourceType": "Shelter Space",
+      "quantity": 10,
+      "etaMinutes": 412,
+      "status": "Dispatched"
+    },
+    {
+      "id": "alloc_14",
+      "incidentId": "inc_13",
+      "resourceId": "res_oty_food",
+      "resourceType": "Food Supply",
+      "quantity": 37,
+      "etaMinutes": 284,
+      "status": "Dispatched"
+    }
+  ],
+  "agentNarrative": {
+    "situationOverview": "Currently responding to 12 active disaster situations across Tamil Nadu, affecting approximately 887 citizens. Operational severity classifications are based on real-time sensor feedback and local demographic impact models.",
+    "actionPlan": [
+      "Deploy resources to Coimbatore - Fire: 17x Shelter Space (ETA: 12m), 43x Shelter Space (ETA: 72m) for 120 citizens.",
+      "Deploy resources to Cuddalore - Cyclone: 34x Food Supply (ETA: 198m), 200x Food Supply (ETA: 337m), 216x Food Supply (ETA: 393m), 142x Shelter Space (ETA: 198m), 8x Shelter Space (ETA: 393m) for 150 citizens.",
+      "Deploy resources to Trichy - Flood: 37x Food Supply (ETA: 284m) for 80 citizens.",
+      "Deploy resources to Madurai - Fire: 95x Medical Kit (ETA: 518m), 25x Shelter Space (ETA: 12m), 75x Shelter Space (ETA: 221m) for 200 citizens.",
+      "Deploy resources to Cuddalore - Flood: 84x Food Supply (ETA: 388m), 116x Food Supply (ETA: 412m), 10x Shelter Space (ETA: 412m) for 100 citizens."
+    ],
+    "justification": "Optimized allocations are calculated using Haversine distance. High priority is mapped to critical severity levels and high population counts. Average response ETA is 275 minutes. Resources are drawn from Chennai, Coimbatore, Madurai, and Trichy command depots depending on geographic proximity, saving valuable transit minutes.",
+    "regionalRisks": [
+      "Coimbatore: Area currently experiencing a Fire event with an urgency score of 88. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Nilgiris: High risk of slope instability, landslide blockages, and mudslides affecting key ghat roads. Rescue kits and heavy utility vehicles are prioritized.",
+      "Trichy: Area currently experiencing a Flood event with an urgency score of 85. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Madurai: Area currently experiencing a Earthquake event with an urgency score of 78. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Cuddalore: High vulnerability to coastal cyclone surges and gale-force wind damage. Evacuation coordinates and medical chest units must remain ready.",
+      "Karur: Area currently experiencing a Flood event with an urgency score of 80. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Salem: Area currently experiencing a Fire event with an urgency score of 65. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Coimbatore: Area currently experiencing a Fire event with an urgency score of 94. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Nilgiris: High risk of slope instability, landslide blockages, and mudslides affecting key ghat roads. Rescue kits and heavy utility vehicles are prioritized.",
+      "Trichy: Area currently experiencing a Flood event with an urgency score of 84. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Madurai: Area currently experiencing a Fire event with an urgency score of 91. Emergency response actions have been adjusted for localized population vulnerability.",
+      "Cuddalore: High vulnerability to coastal cyclone surges and gale-force wind damage. Evacuation coordinates and medical chest units must remain ready."
+    ],
+    "resourceBottlenecks": [
+      "CRITICAL BOTTLENECK: Severe stock shortages for Ambulance, Medical Kit, Food Supply, Shelter Space in active high-priority zones (including Madurai, Nilgiris, Coimbatore)."
+    ],
+    "generatedAt": "2026-07-04T18:24:31.194Z"
+  }
+}

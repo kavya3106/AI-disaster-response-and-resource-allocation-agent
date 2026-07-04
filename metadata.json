@@ -1,0 +1,6 @@
+{
+  "name": "AI Disaster Response & Resource Allocation Agent",
+  "description": "Full-stack decision support system that detects disaster incidents, classifies severity, and optimally allocates resources using a constrained solver and Gemini-powered explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
