@@ -9,17 +9,17 @@ A full-stack, real-time command control system designed for the **Tamil Nadu Sta
 
 ```mermaid
 graph TD
-    A[Citizen/Sensor/News Reports] -->|REST / WebSockets| B[Express Command Server]
-    B -->|Ingest & Persist| C[(data.json File DB)]
+    A[Citizen / Sensor / News Reports] -->|REST or WebSockets| B[Express Command Server]
+    B -->|Ingest and Persist| C[data.json File DB]
     
     B -->|Features Map| D[ML Severity Classifier]
-    D -->|Evaluate Urgency & Historical Risks| D1[Severity Score & Category]
+    D -->|Evaluate Urgency and Historical Risks| D1[Severity Score and Category]
     
     B -->|Trigger Solve| E[Resource Allocation Optimizer]
-    E -->|Proximity & Capacity Constraints| E1[Ranked Dispatch Matrix & Unmet Needs]
+    E -->|Proximity and Capacity Constraints| E1[Ranked Dispatch Matrix]
     
     B -->|Prompt Payload| F[Gemini 3.5 Flash Agent]
-    F -->|Tool Schema Validation| F1[Tactical Plans & Justifications]
+    F -->|Tool Schema Validation| F1[Tactical Plans and Justifications]
     
     B -->|State Broadcast| G[WebSocket Hub]
     G -->|Real-time Frames| H[Control Room Dashboard]
@@ -27,8 +27,6 @@ graph TD
     
     I -->|Mark Resolved| G
 ```
-
----
 
 ## ⚙️ Core Modules
 
